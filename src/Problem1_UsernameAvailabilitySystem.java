@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class UsernameAvailabilitySystem {
+public class Problem1_UsernameAvailabilitySystem {
 
     // username -> userId
     private HashMap<String, Integer> users = new HashMap<>();
@@ -59,7 +59,7 @@ public class UsernameAvailabilitySystem {
 
     public static void main(String[] args) {
 
-        UsernameAvailabilitySystem system = new UsernameAvailabilitySystem();
+        Problem1_UsernameAvailabilitySystem system = new Problem1_UsernameAvailabilitySystem();
 
         // Register existing user
         system.registerUser("john_doe", 1);
